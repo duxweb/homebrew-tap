@@ -1,6 +1,6 @@
 cask "codux" do
-  version "0.4.0"
-  sha256 "2044213d3f32234909f78cc3003d06571147b5c10ebf090a633d8c67dff4ddb5"
+  version "0.7.0"
+  sha256 "1ca8003b47af33ef900bbc3f5bab7d148b95f569247aff015b46b1a81eedb01b"
 
   url "https://github.com/duxweb/codux/releases/download/v#{version}/Codux-#{version}-macos-universal.dmg"
   name "Codux"
@@ -17,7 +17,7 @@ cask "codux" do
   app "Codux.app"
 
   zap trash: [
-    "~/Library/Application Support/dmux",
+    "~/Library/Application Support/Codux",
     "~/Library/Caches/com.duxweb.dmux",
     "~/Library/HTTPStorages/com.duxweb.dmux",
     "~/Library/Preferences/com.duxweb.dmux.plist",
