@@ -1,6 +1,6 @@
 cask "codux" do
-  version "0.8.0"
-  sha256 "1528f9cfe08186a22214c3ad73e0ac31b49eabe44bcda4463c7f5ecb3929b9d4"
+  version "0.8.1"
+  sha256 "1d9e4989a358cd32013366e0f29e1b2cd41c89adf9a039c0dcfe05682412cc87"
 
   url "https://github.com/duxweb/codux/releases/download/v#{version}/Codux-#{version}-macos-universal.dmg"
   name "Codux"
