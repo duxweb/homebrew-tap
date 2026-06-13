@@ -1,8 +1,8 @@
 cask "codux" do
-  version "0.10.2"
-  sha256 "58da74b5748b9d1fe697047ee93392edd95233e98aae94794ee23f2a91839da9"
+  version "1.7.6"
+  sha256 "0220721f465b505f2459af38b139e50d812be0e107346992e4d395ac813987e5"
 
-  url "https://github.com/duxweb/codux/releases/download/v#{version}/Codux-#{version}-macos-universal.dmg"
+  url "https://github.com/duxweb/codux/releases/download/v#{version}/codux-#{version}-macos-universal-formal.dmg"
   name "Codux"
   desc "Native terminal workspace for AI coding tools"
   homepage "https://github.com/duxweb/codux"
@@ -18,9 +18,9 @@ cask "codux" do
 
   zap trash: [
     "~/Library/Application Support/Codux",
-    "~/Library/Caches/com.duxweb.dmux",
-    "~/Library/HTTPStorages/com.duxweb.dmux",
-    "~/Library/Preferences/com.duxweb.dmux.plist",
-    "~/Library/Saved Application State/com.duxweb.dmux.savedState",
+    "~/Library/Caches/com.duxweb.codux",
+    "~/Library/HTTPStorages/com.duxweb.codux",
+    "~/Library/Preferences/com.duxweb.codux.plist",
+    "~/Library/Saved Application State/com.duxweb.codux.savedState",
   ]
 end
