@@ -1,8 +1,16 @@
 cask "codux" do
-  version "1.7.6"
-  sha256 "0220721f465b505f2459af38b139e50d812be0e107346992e4d395ac813987e5"
+  version "1.8.0"
 
-  url "https://github.com/duxweb/codux/releases/download/v#{version}/codux-#{version}-macos-universal-formal.dmg"
+  on_arm do
+    sha256 "d2a392229a2dda7e2588f71086d1c3dc6f63fa6120cd18c771505df5f0ae8de9"
+    url "https://github.com/duxweb/codux/releases/download/v#{version}/codux-#{version}-macos-aarch64.dmg"
+  end
+
+  on_intel do
+    sha256 "e20a2d38f2a7e3fe0acf82fe21bab75702c20861620c6c7072ac3d3f1ec4da5e"
+    url "https://github.com/duxweb/codux/releases/download/v#{version}/codux-#{version}-macos-x86_64.dmg"
+  end
+
   name "Codux"
   desc "Native terminal workspace for AI coding tools"
   homepage "https://github.com/duxweb/codux"
