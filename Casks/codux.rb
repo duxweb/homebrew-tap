@@ -1,13 +1,13 @@
 cask "codux" do
-  version "2.0.0-beta.9"
+  version "2.0.0-beta.10"
 
   on_arm do
-    sha256 "76b481276308d80d2bea50a4d9f02dd9b43afa74d5a7d8b9dbbab5e769ddc46c"
+    sha256 "def89c3229fc9b462d51aeae73befae8e9431a1463d0017c56b1dcafb30749ca"
     url "https://github.com/duxweb/codux/releases/download/v#{version}/codux-#{version}-macos-aarch64.dmg"
   end
 
   on_intel do
-    sha256 "d7c69c2183034965738ce810704ea8a7e5072a2e12f013104760f3452d4b3686"
+    sha256 "bfeba6a97272455e285e07db2ff89c5be7e937e5025e2291e6e88d63c56219e5"
     url "https://github.com/duxweb/codux/releases/download/v#{version}/codux-#{version}-macos-x86_64.dmg"
   end
 
